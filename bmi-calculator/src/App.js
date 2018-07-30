@@ -21,6 +21,12 @@ constructor(props){
     });
   }
 
+  weightChange(weight){
+    this.setState({weight:weight}, function(){
+      console.log(this.state);
+    });
+  }
+
 
   render() {
     return (
@@ -33,6 +39,7 @@ constructor(props){
           </div>
           <div>
             <label>Weight</label>
+            <Range value={this.state.weight} onChange={this.weightChange.bind(this)} />
           </div>
         </form>
         <br /> <br />
