@@ -1,5 +1,5 @@
 
-View the liove Version of my app at: https://l3px0m3llz.codesandbox.io/
+View the live Version of my app at: https://l3px0m3llz.codesandbox.io/
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
