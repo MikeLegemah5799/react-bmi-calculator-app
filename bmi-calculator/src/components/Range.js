@@ -10,13 +10,13 @@ class Range extends Component {
   }
 
   static defaultProps = {
-    min:0,
-    max:245,
+    min: 0,
+    max: 245,
     step: 1
   }
 
   onChange(event){
-    console.log(event.target.value);
+    // console.log(event.target.value);
     this.props.onChange(this.state.value);
     this.setState({value:event.target.value});
   }
@@ -31,5 +31,6 @@ class Range extends Component {
     );
   }
 }
+
 
 export default Range;

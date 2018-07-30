@@ -26,7 +26,7 @@ constructor(props){
   setBmi(){
     let bmi = ((this.state.weight / this.state.height / this.state.height) * 10000).toFixed(2);
     this.setState({bmi: bmi, bmiClass: this.getBmiClass(bmi)}, function() {
-      console.log(this.state);
+      // console.log(this.state);
     });
   }
 

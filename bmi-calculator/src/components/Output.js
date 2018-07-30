@@ -24,7 +24,7 @@ class Output extends Component {
       <div className="output">
         <h3>{height}</h3>
         <h3>{weight}</h3>
-        <h3>{bmi}</h3>
+        <h3>{bmi} BMI</h3>
         <h3 className={(this.props.data.bmiClass === "Obese") ? "danger" : ""}>{bmiClass} {(this.props.data.bmiClass === "Obese") ? <a href='https://www.livestrong.com/article/350376-how-to-lower-bmi-the-fastest/'>How to lower my BMI?</a> : ""}</h3>
       </div>
     );
